@@ -13,7 +13,7 @@ const URL =process.env.DB_URL ;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.send('Server Running Sucessfully');
 });
 
 router.post("/register", async function (request, response) {
